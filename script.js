@@ -11,7 +11,7 @@ document.getElementById("joinForm").addEventListener("submit", async (e) => {
     roleInterest: document.getElementById("roleType").value,
   };
 
-  const res = await fetch("https://nice-snakes-sniff.loca.lt/api/v1/join-u", {
+  const res = await fetch("https://nice-snakes-sniff.loca.lt/api/v1/join-us", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
